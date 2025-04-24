@@ -1,0 +1,141 @@
+/*General stylizing*/
+* {
+    font-family: "Roboto", "Treburchet MS", sans-serif;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*h1 h2 title Stylings*/
+h1 {
+    color: #1E3E62;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "Roboto Mono", "Trebuchet Ms", sans-serif;
+}
+.container h2 {
+    color: #1E3E62;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 650;
+    letter-spacing: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+
+/* Color Panel and Font Boxing*/
+.container {
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: 40px 120px;
+}
+
+.color-container {
+    width: 100%;
+    display: block;
+}
+
+.font-container {
+    width: 100%;
+    display: block;
+}
+
+/*Color Panel and Boxing*/
+.color-panel{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    margin: 20px 5px;
+    min-height: 100px;
+}
+
+.black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.deep-blue {
+    background-color: #0B192C;
+    color: #ffffff;
+}
+
+.dark-blue {
+    background-color: #1E3E62;
+    color: #ffffff;
+}
+
+.orange {
+    background-color: #FF6500;
+    color: #ffffff;
+}
+
+/*Font Panel and Boxing*/
+.font-panel {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    margin: 20px auto;
+    min-height: 100px;
+    padding-left: 100px;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/*Fonts*/
+.roboto {
+    font-family: Roboto;
+}
+
+.roboto-mono {
+    font-family: "Roboto Mono";
+}
+
+.work-sans {
+    font-family: "Work Sans";
+}
+
+.special-gothic-expanded-one {
+    font-family: "Special Gothic Expanded One";
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*Text Styles*/
+.text-panel h1 {
+    color: #000000;
+    text-align: left;
+}
+
+.text-panel h2 {
+    color: #000000;
+    text-align: left;
+}
+
+.text-panel p {
+    font-size: 18px;
+}
+
+.text-panel > #article {
+    font-size: 14px;
+}
